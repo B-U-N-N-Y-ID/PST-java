@@ -1,4 +1,7 @@
 import java.util.*;
+interface PerformOperation {
+    boolean check(int a);
+}
 
 public class LambdaOperations {
 
@@ -47,4 +50,5 @@ public class LambdaOperations {
             }
         }
     }
+
 }
